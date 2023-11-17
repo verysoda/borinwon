@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지역사회연계사업</title>
+    <!-- 폰트어썸 cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css, 폰트 -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dongle:wght@300&family=Gamja+Flower&family=Love+Ya+Like+A+Sister&family=Moirai+One&family=Noto+Sans+KR:wght@100&family=Single+Day&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../css/common/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../../css/sub2/business4.css">
+    <link rel="icon" href="../../image/favicon.png">
+
+
+    <!-- 일반 js -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../../js/common/jquery-ui.min.js"></script>
+    <script src="../../js/common/swiper-bundle.min.js"></script>
+    <script src="../../js/common/favorite.js"></script>
+    <script src="../../js/script.js"></script>
+</head>
+
+<body>
+    <div id="contents">
+        <header>
+            <div id="header_inner">
+                <div id="logo">
+                    <a href="../../index.html">
+                        <img src="../../image/header/top_logo_trans.png" alt="logo">
+                    </a>
+                    <h1>영락 보린원</h1>
+                </div>
+                <nav id="menu">
+                    <ul id="main_menu">
+                        <li class="menu1">
+                            <a href="../../component/sub/welcome.html">우리보린원</a>
+                            <ul class="sub_menu">
+                                <li><a href="../../component/sub/welcome.html">인사말</a></li>
+                                <li><a href="../../component/sub/mission.html">비전 및 미션</a></li>
+                                <li><a href="../../component/sub/history.html">연혁</a></li>
+                                <li><a href="../../component/sub/facilities.html">시설개요</a></li>
+                                <li><a href="../../component/sub/members.html">직원 및 아동현황</a></li>
+                                <li><a href="../../component/sub/enter.html">입&middot;퇴소안내</a></li>
+                                <li><a href="../../component/sub/finance.html">재정현황</a></li>
+                                <li><a href="../../component/sub/totaltown.html">영락아동복지종합타운</a></li>
+                                <li><a href="../../component/sub/location.html">오시는길</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="menu2">
+                            <a href="../../component/sub2/nurture.html">주요사업</a>
+                            <ul class="sub_menu">
+                                <li><a href="../../component/sub2/nurture.html">양육서비스</a></li>
+                                <li><a href="../../component/sub2/business1.html">인지정서발달지원사업</a></li>
+                                <li><a href="../../component/sub2/business2.html">자립지원사업</a></li>
+                                <li><a href="../../component/sub2/business3.html">가족연계사업</a></li>
+                                <li><a href="../../component/sub2/business4.html">지역사회연계사업</a></li>
+                            </ul>
+                        </li> -->
+                        <li class="menu3">
+                            <a href="../../component/sub3/supportdesk.html">후원&middot;자원봉사</a>
+                            <ul class="sub_menu">
+                                <li><a href="../../component/sub3/supportdesk.html">후원안내</a></li>
+                                <li><a href="../../component/login/login.html">후원신청</a></li>
+                                <li><a href="../../component/sub3/volunteerdesk.html">자원봉사 안내</a></li>
+                                <li><a href="../../component/login/login.html">자원봉사 신청</a></li>
+                                <li><a href="../../component/sub3/volunteergallery.html">후원&middot;지원봉사 갤러리</a></li>
+                                <li><a href="../../component/sub3/thankyou.html">감사하신분</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu4">
+                            <a href="../../component/sub4/wespace.html">우리집이야기</a>
+                            <ul class="sub_menu">
+                                <li><a href="../../component/sub4/wespace.html">우리들 공간</a></li>
+                                <li><a href="../../component/sub4/memberspace.html">직원공간</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu5">
+                            <a href="../../component/sub5/photogallery.html">보물 창고</a>
+                            <ul class="sub_menu">
+                                <li><a href="../../component/sub5/photogallery.html">포토 갤러리</a></li>
+                                <li><a href="../../component/sub5/news.html">소식지</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu6">
+                            <a href="../../component/sub6/notice.html">참여 마당</a>
+                            <ul class="sub_menu">
+                                <li><a href="../../component/sub6/notice.html">공지사항</a></li>
+                                <li><a href="../../component/sub6/event.html">행사안내</a></li>
+                                <li><a href="../../component/sub6/freeboard.html">자유게시판</a></li>
+                                <li><a href="../../component/sub6/doodreamboard.html">두드림게시판</a></li>
+                                <li><a href="../../component/sub6/childvolunteerboard.html">이동복지 자료실</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu7">
+                            <a href="../../component/sub7/public.html">운영 법인</a>
+                            <ul class="sub_menu last_sub_menu">
+                                <li><a href="../../component/sub7/public.html">영락사회복지재단</a></li>
+                                <li><a href="../../component/sub7/prist.html">설립자 한경직목사</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="gnb">
+                    <ul id="gnb_menu">
+                        <li><a href="../../component/login/login.html">로그인</a></li>
+                        <li><a href="../../component/login/signin.html">회원가입</a></li>
+                        <li><a href="javascript:void(0)">사이트맵</a></li>
+                        <li> <a href="javascript:addFavorite()">즐겨찾기</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="swiper1">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide slide_bg1">
+                    <div id="slide_text1">
+                        <div>영락보린원</div>
+                        <div><a href="../../component/sub/welcome.html">알아보기</a></div>
+                        <div>아이들의 밝은 미소를 지키기 위해 운영됩니다.</div>
+                    </div>
+                    <img src="../../image/header/header-slider02.jpg" alt="bg1">
+                </div>
+                <div class="swiper-slide slide_bg2">
+                    <div id="slide_text2">
+                        <div>나도 행복해지는</div>
+                        <div><a href="../../component/sub3/supportdesk.html">알아보기</a></div>
+                        <div>아이들을 위한 후원을 시작해보세요.</div>
+                    </div>
+                    <img src="../../image/header/header-slider03.jpg" alt="bg2">
+                </div>
+                <div class="swiper-slide slide_bg3">
+                    <div id="slide_text3">
+                        <div>작은 실천으로 만드는 행복</div>
+                        <div><a href="../../component/sub3/volunteerdesk.html">알아보기</a></div>
+                        <div>아이들을 위한 따스한 손을 내밀어 주세요.</div>
+                    </div>
+                    <img src="../../image/header/header-slider04.jpg" alt="bg3">
+                </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev sw_button_prev">
+                <!-- <a href="javascript:void(0)"> -->
+                <img src="../../image/common/arrow_left.png" alt="left_arrow">
+                <!-- </a> -->
+            </div>
+            <div class="swiper-button-next sw_button_next">
+                <!-- <a href="javascript:void(0)"> -->
+                <img src="../../image/common/arrow_right.png" alt="right_arrow">
+                <!-- </a> -->
+            </div>
+        </div>
+
+        <div id="notice">
+            <div id="notice_slide" class="swiper2">
+                <!-- If we need navigation buttons -->
+                <div id="header_button_wrap">
+                    <h3><a href="#">공지사항</a></h3>
+                    <div class="swiper-button-prev notice_button_prev">
+                        <a href="javascript:void(0)">
+                            <i class="fa-solid fa-angle-left fa-xl"></i>
+                        </a>
+                    </div>
+                    <div class="swiper-button-next notice_button_next">
+                        <a href="javascript:void(0)">
+                            <i class="fa-solid fa-angle-right fa-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            1. 신종 코로나 바이러스 감염증 발생 긴급 확산에 따른 자원봉사 활동 일시 중지 안내
+                        </a>
+                        <p class="notice_time">2023-10-19</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#">
+                            2. 지정기탁서 양식
+                        </a>
+                        <p class="notice_time">2023-10-19</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#">
+                            3. [채용공고] 영락보린원 생활지도원 모집공고
+                        </a>
+                        <p class="notice_time">2023-10-19</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#">
+                            4. 출산휴가 및 육아휴직 대체 생활지도원 채용공고
+                        </a>
+                        <p class="notice_time">2023-10-19</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div><!-- section1 end -->
+
+    <!-- section2 -->
+    <section id="section2">
+        <div id="sec2_warp">
+            <div id="sec2_left">
+                <div id="sec2_left_wrap">
+                    <div id="sec2_logo">
+                        <img src="../../image/sub/2/left_title.gif" alt="logo">
+                    </div>
+                    <ul id="sec2_menu">
+                        <li><a href="../../component/sub2/nurture.html">양육서비스</a></li>
+                        <li><a href="../../component/sub2/business1.html">인지정서발달지원사업</li>
+                        <li><a href="../../component/sub2/business2.html">자립지원사업</a></li>
+                        <li><a href="../../component/sub2/business3.html">가족연계사업</a></li>
+                        <li><a href="../../component/sub2/business4.html"><img src="../../image/common/dot-star.png"
+                                    alt="dot" width="10">지역사회연계사업</a></li>
+                    </ul>
+                    <ul id="sec2_menu2">
+                        <li><a href="../../component/sub3/volunteerdesk.html"><img src="../../image/sub/1/volunteer.gif"
+                                    alt="img1"></a></li>
+                        <li><a href="../../component/sub3/supportdesk.html"><img
+                                    src="../../image/sub/1/support_info.gif" alt="img2"></a></li>
+                        <li><a href="../../component/sub7/prist.html"><img src="../../image/sub/1/minister.gif"
+                                    alt="img3"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="sec2_right">
+                <div id="sec2_right_wrap">
+                    <div id="sec2_content">
+                        <div id="sec2_right_text">
+                            <span>지역사회연계사업</span>
+                        </div>
+                        <div id="sec2_right_content">
+                            <img src="../../image/sub/2/business4.jpg" alt="business4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- aside -->
+    <aside>
+        <div id="aside_wrap">
+            <div id="aside_banner" class="fold">
+                <div id="aside_menu">
+                    <div id="aside_item1">
+                        <div class="aside_icon">
+                            <a href="https://happylog.naver.com/hlog/borinwon/home" target="_blank">
+                                <img src="../../image/quick/quick_01_hover.png" alt="item1">
+                                <img src="../../image/quick/quick_01_white.png" alt="item1">
+                                <span>네이버 해피빈<br>기부하러 가기</span>
+                            </a>
+                        </div>
+                        <div class="aside_icon">
+                            <a href="#" target="_blank">
+                                <img src="../../image/quick/quick_02_hover.png" alt="item1">
+                                <img src="../../image/quick/quick_02_white.png" alt="item1">
+                                <span>설립자<br>한경직 목사</span>
+                            </a>
+                        </div>
+                        <div class="aside_icon">
+                            <a href="https://www.youngcenter.or.kr/index.php" target="_blank">
+                                <img src="../../image/quick/quick_03_hover.png" alt="item1">
+                                <img src="../../image/quick/quick_03_white.png" alt="item1">
+                                <span>영락지역<br>아동복지센타</span>
+                            </a>
+                        </div>
+                        <div class="aside_icon">
+                            <a href="http://www.ynswf.co.kr/main/" target="_blank">
+                                <img src="../../image/quick/quick_04_hover.png" alt="item1">
+                                <img src="../../image/quick/quick_04_white.png" alt="item1">
+                                <span>영락사회<br>복지재단</span>
+                            </a>
+                        </div>
+                        <div class="aside_icon">
+                            <a href="#" target="_blank">
+                                <img src="../../image/quick/quick_05_hover.png" alt="item1">
+                                <img src="../../image/quick/quick_05_white.png" alt="item1">
+                                <span>오시는길</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="aside_item2">
+                        <a href="#" target="_blank">
+                            <img src="../../image/banner/children_wellfare.gif" alt="item1">
+                        </a>
+                    </div>
+                </div>
+                <div id="aside_button1">
+                    <a href="javascript:void(0)">
+                        <img src="../../image/quick/fold_off.png" alt="aside_button">
+                    </a>
+                </div>
+                <div id="aside_button2">
+                    <a href="javascript:void(0)">
+                        <img src="../../image/quick/fold_on.png" alt="aside_button">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside><!-- aside -->
+
+    <!-- footer -->
+    <footer id="footer">
+        <div id="footerwrap">
+            <div id="footer_logo">
+                <img src="../../image/footer/top_logo_grayscale.png" alt="logo">
+            </div>
+            <div id="footer_copy">
+                <p>영락보린원 | 주소 : (04336) <strong>서울특별시 용산구 후암로4길 70번길</strong> | 전화 : <strong>02-2778-8533
+                        02-754-6051</strong> | 팩스 : 02-778-8532<br>
+                    Copyright&copy;<strong style="font-weight: bold; color: royalblue">Youngnak Borinwon.</strong> all
+                    rights
+                    reserved.&nbsp;&nbsp;E-mail: borinwon@hanmail.net</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

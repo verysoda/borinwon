@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>팝업창</title>
+    <link rel="stylesheet" href="../../css/sub/popup.css">
+    <script defer src="../../js/common/popup.js"></script>
+</head>
+
+<body onunload="closeWin()">
+    <div id="popup_bg">
+        <h3>맑은 누리 최신호가 나왔습니다</h3>
+        <img src="../../image/section3/20230811164225_0.png" alt="img" width="350">
+    </div>
+    <form name="frm">
+        <input type="checkbox" name="event" id="check">
+        <label for="check" id="check_label">다음부터 이 창을 열지 않음</label>
+        <div class="v-line"></div>
+        <input type="button" value="닫기" id="button" onclick="self.close()">
+        <label for="button" id="button_label">닫기</label>
+    </form>
+</body>
+
+</html>

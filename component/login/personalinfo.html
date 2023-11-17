@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인정보처리방침</title>
+    <!-- 폰트어썸 cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css, 폰트 -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dongle:wght@300&family=Gamja+Flower&family=Love+Ya+Like+A+Sister&family=Moirai+One&family=Noto+Sans+KR:wght@100&family=Single+Day&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../css/common/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../../css/login/personalinfo.css">
+    <link rel="icon" href="../../image/favicon.png">
+
+
+    <!-- 일반 js -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../../js/common/jquery-ui.min.js"></script>
+    <script src="../../js/common/swiper-bundle.min.js"></script>
+    <script src="../../js/common/favorite.js"></script>
+    <script src="../../js/script.js"></script>
+</head>
+
+<body>
+    <div id="contents">
+        <header>
+            <div id="header_inner">
+                <div id="logo">
+                    <a href="../../index.html">
+                        <img src="../../image/header/top_logo_trans.png" alt="logo">
+                    </a>
+                    <h1>영락 보린원</h1>
+                </div>
+                <nav id="menu">
+                    <ul id="main_menu">
+                        <li class="menu1">
+                            <a href="../../component/sub/welcome.html">우리보린원</a>
+                            <ul class="sub_menu">
+                                <li><a href="../../component/sub/welcome.html">인사말</a></li>
+                                <li><a href="../../component/sub/mission.html">비전 및 미션</a></li>
+                                <li><a href="../../component/sub/history.html">연혁</a></li>
+                                <li><a href="../../component/sub/facilities.html">시설개요</a></li>
+                                <li><a href="../../component/sub/members.html">직원 및 아동현황</a></li>
+                                <li><a href="../../component/sub/enter.html">입&middot;퇴소안내</a></li>
+                                <li><a href="../../component/sub/finance.html">재정현황</a></li>
+                                <li><a href="../../component/sub/totaltown.html">영락아동복지종합타운</a></li>
+                                <li><a href="../../component/sub/location.html">오시는길</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="menu2">
+                            <a href="../../component/sub2/nurture.html">주요사업</a>
+                            <ul class="sub_menu">
+                                <li><a href="../../component/sub2/nurture.html">양육서비스</a></li>
+                                <li><a href="../../component/sub2/business1.html">인지정서발달지원사업</a></li>
+                                <li><a href="../../component/sub2/business2.html">자립지원사업</a></li>
+                                <li><a href="../../component/sub2/business3.html">가족연계사업</a></li>
+                                <li><a href="../../component/sub2/business4.html">지역사회연계사업</a></li>
+                            </ul>
+                        </li> -->
+                        <li class="menu3">
+                            <a href="../../component/sub3/supportdesk.html">후원&middot;자원봉사</a>
+                            <ul class="sub_menu">
+                                <li><a href="../../component/sub3/supportdesk.html">후원안내</a></li>
+                                <li><a href="../../component/login/login.html">후원신청</a></li>
+                                <li><a href="../../component/sub3/volunteerdesk.html">자원봉사 안내</a></li>
+                                <li><a href="../../component/login/login.html">자원봉사 신청</a></li>
+                                <li><a href="../../component/sub3/volunteergallery.html">후원&middot;지원봉사 갤러리</a></li>
+                                <li><a href="../../component/sub3/thankyou.html">감사하신분</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu4">
+                            <a href="../../component/sub4/wespace.html">우리집이야기</a>
+                            <ul class="sub_menu">
+                                <li><a href="../../component/sub4/wespace.html">우리들 공간</a></li>
+                                <li><a href="../../component/sub4/memberspace.html">직원공간</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu5">
+                            <a href="../../component/sub5/photogallery.html">보물 창고</a>
+                            <ul class="sub_menu">
+                                <li><a href="../../component/sub5/photogallery.html">포토 갤러리</a></li>
+                                <li><a href="../../component/sub5/news.html">소식지</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu6">
+                            <a href="../../component/sub6/notice.html">참여 마당</a>
+                            <ul class="sub_menu">
+                                <li><a href="../../component/sub6/notice.html">공지사항</a></li>
+                                <li><a href="../../component/sub6/event.html">행사안내</a></li>
+                                <li><a href="../../component/sub6/freeboard.html">자유게시판</a></li>
+                                <li><a href="../../component/sub6/doodreamboard.html">두드림게시판</a></li>
+                                <li><a href="../../component/sub6/childvolunteerboard.html">이동복지 자료실</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu7">
+                            <a href="../../component/sub7/public.html">운영 법인</a>
+                            <ul class="sub_menu last_sub_menu">
+                                <li><a href="../../component/sub7/public.html">영락사회복지재단</a></li>
+                                <li><a href="../../component/sub7/prist.html">설립자 한경직목사</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="gnb">
+                    <ul id="gnb_menu">
+                        <li><a href="../../component/login/login.html">로그인</a></li>
+                        <li><a href="../../component/login/signin.html">회원가입</a></li>
+                        <li><a href="javascript:void(0)">사이트맵</a></li>
+                        <li> <a href="javascript:addFavorite()">즐겨찾기</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="swiper1">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide slide_bg1">
+                    <div id="slide_text1">
+                        <div>영락보린원</div>
+                        <div><a href="../../component/sub/welcome.html">알아보기</a></div>
+                        <div>아이들의 밝은 미소를 지키기 위해 운영됩니다.</div>
+                    </div>
+                    <img src="../../image/header/header-slider02.jpg" alt="bg1">
+                </div>
+                <div class="swiper-slide slide_bg2">
+                    <div id="slide_text2">
+                        <div>나도 행복해지는</div>
+                        <div><a href="../../component/sub3/supportdesk.html">알아보기</a></div>
+                        <div>아이들을 위한 후원을 시작해보세요.</div>
+                    </div>
+                    <img src="../../image/header/header-slider03.jpg" alt="bg2">
+                </div>
+                <div class="swiper-slide slide_bg3">
+                    <div id="slide_text3">
+                        <div>작은 실천으로 만드는 행복</div>
+                        <div><a href="../../component/sub3/volunteerdesk.html">알아보기</a></div>
+                        <div>아이들을 위한 따스한 손을 내밀어 주세요.</div>
+                    </div>
+                    <img src="../../image/header/header-slider04.jpg" alt="bg3">
+                </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev sw_button_prev">
+                <!-- <a href="javascript:void(0)"> -->
+                <img src="../../image/common/arrow_left.png" alt="left_arrow">
+                <!-- </a> -->
+            </div>
+            <div class="swiper-button-next sw_button_next">
+                <!-- <a href="javascript:void(0)"> -->
+                <img src="../../image/common/arrow_right.png" alt="right_arrow">
+                <!-- </a> -->
+            </div>
+        </div>
+
+        <div id="notice">
+            <div id="notice_slide" class="swiper2">
+                <!-- If we need navigation buttons -->
+                <div id="header_button_wrap">
+                    <h3><a href="#">공지사항</a></h3>
+                    <div class="swiper-button-prev notice_button_prev">
+                        <a href="javascript:void(0)">
+                            <i class="fa-solid fa-angle-left fa-xl"></i>
+                        </a>
+                    </div>
+                    <div class="swiper-button-next notice_button_next">
+                        <a href="javascript:void(0)">
+                            <i class="fa-solid fa-angle-right fa-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            1. 신종 코로나 바이러스 감염증 발생 긴급 확산에 따른 자원봉사 활동 일시 중지 안내
+                        </a>
+                        <p class="notice_time">2023-10-19</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#">
+                            2. 지정기탁서 양식
+                        </a>
+                        <p class="notice_time">2023-10-19</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#">
+                            3. [채용공고] 영락보린원 생활지도원 모집공고
+                        </a>
+                        <p class="notice_time">2023-10-19</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#">
+                            4. 출산휴가 및 육아휴직 대체 생활지도원 채용공고
+                        </a>
+                        <p class="notice_time">2023-10-19</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div><!-- section1 end -->
+
+    <!-- section2 -->
+    <section id="section2">
+        <div id="sec2_warp">
+            <div id="sec2_left">
+                <div id="sec2_left_wrap">
+                    <div id="sec2_logo">
+                        <img src="../../image/login/left_title.gif" alt="logo">
+                    </div>
+                    <ul id="sec2_menu">
+                        <li><a href="../../component/login/login.html">로그인</a></li>
+                        <li><a href="../../component/login/signin.html">회원가입</li>
+                        <li><a href="../../component/login/find.html">아이디/비밀번호찾기</a></li>
+                        <li><a href="../../component/login/term.html">이용약관</a></li>
+                        <li><a href="../../component/login/personalinfo.html"><img src="../../image/common/dot-star.png"
+                                    alt="dot" width="10">개인정보 처리방침</a></li>
+                    </ul>
+                    <ul id="sec2_menu2">
+                        <li><a href="#"><img src="../../image/sub/1/volunteer.gif" alt="img1"></a></li>
+                        <li><a href="#"><img src="../../image/sub/1/support_info.gif" alt="img2"></a></li>
+                        <li><a href="#"><img src="../../image/sub/1/minister.gif" alt="img3"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="sec2_right">
+                <div id="sec2_right_wrap">
+                    <div id="sec2_content">
+                        <div id="sec2_right_text">
+                            <div>개인정보 처리 방침</div>
+                            <span>privacy</span>
+                            <span> policy</span>
+                        </div>
+                        <textarea name="termtext" id="termtext" disabled>
+영락보린원은 회원 개개인의 사생활을 적극적이고 효과적으로 보호하며 '정보통신망이용촉진등에 관한 법률' 등 모든 관련법규를 준수하고자 개인정보보호를 위한 방침을 만들어 이를 준수하고 있습니다.
+
+
+이러한 개인정보 취급방침은 관련 법률 및 정부 지침의 변경과 영락보린원의 내부 방침의 변경에 의하여 수시로 변경될 수 있습니다.
+영락보린원의 개인정보 취급방침이 변경될 경우 변경사항은 영락보린원홈페이지에 게시됩니다.
+또 변경사항에 의문이 있으실 경우는 언제라도 아래의 연락처로 담당자에게 문의하시거나 영락보린원의 홈페이지를 방문하여 확인하실 수 있습니다.
+
+
+본 개인정보 보호방침에서 사용하는 개인정보의 의미는 다음과 같습니다.
+- 개인정보 : 생존하는 개인에 관한 정보로서 당해 정보에 포함되어 있는 성명, 주민등록번호 등의 사항에 의하여 당해 개인을 식별 할 수 있는 정보 (당해 정보만으로는 특정 개인을 식별할 수 없더라도 다른 정보와 용이하게 결합하여 식별할 수 있는 것을 포함한다.)를 말합니다.
+
+>영락보린원 개인정보 취급방침은 다음의 내용을 포함합니다.
+
+    
+
+1. 영락보린원가 수집하는 개인정보는 무엇인가?
+영락보린원에서는 회원 여러분에게 다양한 서비스를 제공하기 위하여 몇 가지 방법을 통해 개인정보를 수집하고 있습니다.
+첫 번째, 영락보린원사이트에 가입할 때 기입하는 정보로서 서비스 이용상 꼭 필요한 필수 입력 사항과 보다 나은 서비스 제공을 위한 선택 입력 사항이 있습니다.
+영락보린원가입시 필수 입력 사항은 ID, 이름, 주민등록번호, 전화번호, 주소, 비밀번호, 비밀번호재발급 질문과 답, 이메일 주소 등이며, 그 외의 입력 사항은 모두 선택 사항입니다.
+이와 별도로 영락보린원사이트 중 특별한 서비스(운세정보 등)의 제공을 위해 추가 정보를 입력해야 하는 경우와 유료 컨텐트를 이용할 때 대금 결제를 위한 정보를 입력해야 하는 경우가 있습니다.
+두 번째, 영락보린원사이트에서 진행하는 각종 이벤트 및 설문 참여시 이벤트 효과 분석 및 이벤트 사후 관리 (당첨자 확인 및 상품 발송) 또는 설문 결과에 대한 통계 분석 등을 위해 필요한 정보를 제공 받거나 직접 묻게 되는 경우가 있습니다.
+세 번째, 영락보린원은 쿠키(cookie)를 통하여 이용자 여러분의 정보를 얻는 경우가 있습니다.
+쿠키(cookie)에 대해서는 별도의 설명을 참고하시기 바랍니다.
+
+    
+
+2. 회원의 개인정보는 어떻게 이용되는가?
+영락보린원에서 회원의 개인정보를 수집하는 것은 기본적으로 다양한 영락보린원 사이트를 원활하게 이용할 수 있도록 하기 위한 것이며, 여기에는 개별 회원에게 맞춤화된 서비스, 커뮤니케이션 서비스, 성인만을 위한 컨텐트 제공 서비스 등이 포함됩니다.
+영락보린원은수집된 정보를 바탕으로 회원에게 멤버쉽 카드등 보다 나은 영락보린원 사이트 서비스 혜택 제공을 위해 다양한 전달 방법(전화, 안내문, 메일 등)을 통해 서비스 관련 정보를 제공할 수 있습니다. 단, 회사는 회원이 서비스 혜택 정보 제공을 원치 않는다는 의사를 밝히는 경우 정보 제공 대상에서 해당 회원을 제외하여야 하며, 대상에서 제외되어 서비스 정보를 제공받지 못해 불이익이 발생하더라도 이에 대해서는 회사가 책임지지 않습니다.
+영락보린원은 영락보린원가 제공하는 서비스를 이용하는 회원을 대상으로 해당 서비스의 양적, 질적 향상을 위하여 이용자의 개인정보를 이용자의 동의를 받아 이를 수집하여 맞춤서비스, 온라인광고서비스, 쇼핑몰서비스, 커뮤니티서비스, 유료컨텐츠서비스, 모바일서비스, 콜센터를 통한 보험, 신용카드 등의 텔레마케팅서비스 등에 이용할 수 있습니다.
+영락보린원은 일부 유료 컨텐트를 제외하고 다양한 컨텐트를 무료로 제공하기 위하여 광고를 게재합니다. 이러한 광고들을 회원 여러분에게 제공할 때에도 몇 가지 필요한 사항을 알고 있으면 더욱 적절하고 유용한 광고를 제공할 수 있습니다. 이렇게 적절한 광고를 전달하기 위하여 영락보린원은 광고하기를 원하는 기업이나 단체 등에게 광고의 대상이 되는 회원의 유형을 통계적인 수치(예를 들어 '30대 남성')로만 제공합니다. 그 외에 특정한 개인을 확인할 수 있는 어떠한 종류의 개인정보도 제공하지 않습니다.
+또한, 영락보린원은 서버의 로그 파일이나 기타 설문조사 등을 통하여 얻은 개인정보를 근거로 사용자들의 인구통계학적 분포도, 관심사, 행동양식 등을 연구하여 더욱 좋은 서비스를 제공하기 위해 노력합니다. 이러한 정보는 총체적으로 수집, 분석되며 사안에 따라 해당 정보를 광고주 또는 협력사들과 통계자료의 형태로 가공된 정보를 공유할 수 있습니다.
+물론 이러한 가공된 정보로는 개인의 신상을 파악할 수 없습니다.
+
+    
+
+3. 회원의 개인정보의 보유기간 및 이용기간은?
+회원이 영락보린원 사이트 가입 시 제공한 정보는 회원 가입 시점부터 해지 완료 후 60일까지 보관할 수 있습니다. 단, 드림캐쉬를 구매하거나 전자상거래를 이용한 회원의 개인정보와 거래 내역은 만약에 있을 수 있는 반품, 환불, 신용카드 매출취소 등이 경우를 대비하여 90일간 보관됩니다. 상법 등 관련 법령의 규정에 의하여 보존할 필요성이 있는 경우에는 예외로 합니다.
+
+* 개인정보의 보유 및 이용기간
+원칙적으로, 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다. 단, 다음의 정보에 대해서는 아래의 이유로 명시한 기간 동안 보존합니다.
+- 보존 항목 : 로그인ID
+- 보존 근거 : 서비스 이용에 대한 중복혼선 예방
+- 보존 기간 : 영구 보존
+그리고 관계법령의 규정에 의하여 보존할 필요가 있는 경우 회사는 아래와 같이 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다.
+- 표시/광고에 관한 기록 : 6개월(전자상거래등에서의 소비자보호에 관한 법률)
+- 계약 또는 청약철회 등에 관한 기록 : 5년(전자상거래등에서의 소비자보호에 관한 법률)
+- 대금결제 및 재화 등의 공급에 관한 기록 : 5년(전자상거래등에서의 소비자보호에 관한 법률)
+- 소비자의 불만 또는 분쟁처리에 관한 기록 : 3년(전자상거래등에서의 소비자보호에 관한 법률)
+
+* 개인정보의 파기 절차 및 방법
+회사는 원칙적으로 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체없이 파기합니다. 파기절차 및 방법은 다음과 같습니다.
+- 파기절차
+회원님이 회원가입 등을 위해 입력하신 정보는 목적이 달성된 후 별도의 DB로 옮겨져(종이의 경우 별도의 서류함) 내부 방침 및 기타 관련 법령에 의한 정보보호 사유에 따라(보유 및 이용기간 참조) 일정 기간 저장된 후 파기되어집니다.
+별도 DB로 옮겨진 개인정보는 법률에 의한 경우가 아니고서는 보유되어지는 이외의 다른 목적으로 이용되지 않습니다.
+-파기방법
+전자적 파일형태로 저장된 개인정보는 기록을 재생할 수 없는 기술적 방법을 사용하여 삭제합니다.
+
+    
+
+* 부칙
+1. (시행일) 본 개인정보취급방침은 2013년 4월 1일부터 시행합니다.
+                        </textarea>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- aside -->
+    <aside>
+        <div id="aside_wrap">
+            <div id="aside_banner" class="fold">
+                <div id="aside_menu">
+                    <div id="aside_item1">
+                        <div class="aside_icon">
+                            <a href="https://happylog.naver.com/hlog/borinwon/home" target="_blank">
+                                <img src="../../image/quick/quick_01_hover.png" alt="item1">
+                                <img src="../../image/quick/quick_01_white.png" alt="item1">
+                                <span>네이버 해피빈<br>기부하러 가기</span>
+                            </a>
+                        </div>
+                        <div class="aside_icon">
+                            <a href="#" target="_blank">
+                                <img src="../../image/quick/quick_02_hover.png" alt="item1">
+                                <img src="../../image/quick/quick_02_white.png" alt="item1">
+                                <span>설립자<br>한경직 목사</span>
+                            </a>
+                        </div>
+                        <div class="aside_icon">
+                            <a href="https://www.youngcenter.or.kr/index.php" target="_blank">
+                                <img src="../../image/quick/quick_03_hover.png" alt="item1">
+                                <img src="../../image/quick/quick_03_white.png" alt="item1">
+                                <span>영락지역<br>아동복지센타</span>
+                            </a>
+                        </div>
+                        <div class="aside_icon">
+                            <a href="http://www.ynswf.co.kr/main/" target="_blank">
+                                <img src="../../image/quick/quick_04_hover.png" alt="item1">
+                                <img src="../../image/quick/quick_04_white.png" alt="item1">
+                                <span>영락사회<br>복지재단</span>
+                            </a>
+                        </div>
+                        <div class="aside_icon">
+                            <a href="#" target="_blank">
+                                <img src="../../image/quick/quick_05_hover.png" alt="item1">
+                                <img src="../../image/quick/quick_05_white.png" alt="item1">
+                                <span>오시는길</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="aside_item2">
+                        <a href="#" target="_blank">
+                            <img src="../../image/banner/children_wellfare.gif" alt="item1">
+                        </a>
+                    </div>
+                </div>
+                <div id="aside_button1">
+                    <a href="javascript:void(0)">
+                        <img src="../../image/quick/fold_off.png" alt="aside_button">
+                    </a>
+                </div>
+                <div id="aside_button2">
+                    <a href="javascript:void(0)">
+                        <img src="../../image/quick/fold_on.png" alt="aside_button">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside><!-- aside -->
+
+    <!-- footer -->
+    <footer id="footer">
+        <div id="footerwrap">
+            <div id="footer_logo">
+                <img src="../../image/footer/top_logo_grayscale.png" alt="logo">
+            </div>
+            <div id="footer_copy">
+                <p>영락보린원 | 주소 : (04336) <strong>서울특별시 용산구 후암로4길 70번길</strong> | 전화 : <strong>02-2778-8533
+                        02-754-6051</strong> | 팩스 : 02-778-8532<br>
+                    Copyright&copy;<strong style="font-weight: bold; color: royalblue">Youngnak Borinwon.</strong> all
+                    rights
+                    reserved.&nbsp;&nbsp;E-mail: borinwon@hanmail.net</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
