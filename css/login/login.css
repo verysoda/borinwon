@@ -46,7 +46,7 @@ body {
 #section2 #sec2_warp #sec2_left {
     float: left;
     width: 200px;
-    height: max-content;
+    height: 720px;
     padding: 50px 0;
     box-sizing: border-box;
     text-align: center;
